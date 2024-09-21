@@ -1,0 +1,5 @@
+# Rotary Wheel for Learning
+
+The Rotary Wheels for Learning (RWFL) Project is an international humanitarian project which is led by the Rotary Club of Gravenhurst, Ontario. In its thirteenth year, the project’s aim is twofold; first, we build, repair and distribute bicycles to impoverished rural children so they may have the opportunity to attend school. As many of the impoverished children in Cambodia have to walk great distances to school, they simply cannot attend without the aid of a bicycle. Shortcuts through fields and jungle offer the prospect of encountering long forgotten landmines, unexploded ordinance, or poisonous snakes. Secondly, we identify and fund critical Education and Water, Sanitation and Hygiene (WASH) projects at rural schools so the children can remain healthy and stay in school.
+
+The upcoming RWFL Project dates are 25 January – 16 February 2025. Our goal this year is to distribute 674 bicycles in six different provinces (Kampong Chhnang, Battambang, Siem Reap, Ratanakiri, Kratie, and Kampot ). While this project is very much hands on, there is no requirement to have experience with assembling bicycles
