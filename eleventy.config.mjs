@@ -5,8 +5,7 @@ import autoprefixer from "autoprefixer";
 import tailwindConfig from "./tailwind.config.js";
 
 export default async (eleventyConfig) => {
-	// eleventyConfig.addPassthroughCopy("src/style.css");
-	eleventyConfig.addPassthroughCopy("src/script.js");
+	eleventyConfig.addPassthroughCopy("src/static");
 	eleventyConfig.setDataDeepMerge(true);
 
 	eleventyConfig.addNunjucksAsyncFilter("postcss", async (cssCode, done) => {

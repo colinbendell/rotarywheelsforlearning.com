@@ -1,35 +1,32 @@
 {
-  "name": "rotarywheelsforlearning.com",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "Rotary Wheels for Learning",
-  "type": "module",
-  "scripts": {
-    "clean": "del build",
-    "start": "eleventy --serve --watch",
-    "build:11ty": "ELEVENTY_ENV=production eleventy",
-    "build:scripts": "esbuild src/_assets/scripts/app.js --bundle --minify --outfile=build/static/app.min.js",
-    "build": "npm run clean && npm run build:11ty && npm run build:scripts"
-  },
-  "dependencies": {
-    "@11ty/eleventy": "^3.0.0-beta.1",
-    "@eslint/js": "^9.3.0",
-    "autoprefixer": "^10.4.19",
-    "eslint": "^9.3.0",
-    "eslint-plugin-jsdoc": "^50.0.0",
-    "globals": "^15.3.0",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3",
-    "del-cli": "^5.0.0",
-    "esbuild": "^0.23",
-    "html-minifier": "^4.0.0",
-    "postcss-cli": "^11.0.0",
-    "postcss-import": "^16.0.0"
-  }
+	"name": "rotarywheelsforlearning.com",
+	"version": "1.0.0",
+	"main": "index.js",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "Rotary Wheels for Learning",
+	"type": "module",
+	"scripts": {
+		"clean": "del build",
+		"start": "eleventy --serve --watch",
+		"build:11ty": "ELEVENTY_ENV=production eleventy",
+		"build:scripts": "esbuild src/_assets/scripts/app.js --bundle --minify --outfile=build/static/app.min.js",
+		"build": "npm run clean && npm run build:11ty && npm run build:scripts"
+	},
+	"dependencies": {
+		"@11ty/eleventy": "^3.0.0-beta.1",
+		"@eslint/js": "^9.3.0",
+		"autoprefixer": "^10.4.19",
+		"eslint": "^9.3.0",
+		"eslint-plugin-jsdoc": "^50.0.0",
+		"globals": "^15.3.0",
+		"postcss": "^8.4.38",
+		"tailwindcss": "^3.4.3",
+		"del-cli": "^5.0.0",
+		"esbuild": "^0.23",
+		"html-minifier": "^4.0.0",
+		"postcss-cli": "^11.0.0",
+		"postcss-import": "^16.0.0"
+	}
 }
