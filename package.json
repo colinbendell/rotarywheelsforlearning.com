@@ -11,8 +11,7 @@
 		"clean": "del build",
 		"start": "eleventy --serve --watch",
 		"build:11ty": "ELEVENTY_ENV=production eleventy",
-		"build:scripts": "esbuild src/_assets/scripts/app.js --bundle --minify --outfile=build/static/app.min.js",
-		"build": "npm run clean && npm run build:11ty && npm run build:scripts"
+		"build": "npm run clean && npm run build:11ty"
 	},
 	"dependencies": {
 		"@11ty/eleventy": "^3.0.0-beta.1",
