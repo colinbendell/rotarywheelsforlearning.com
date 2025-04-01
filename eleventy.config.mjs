@@ -6,6 +6,7 @@ import tailwindConfig from "./tailwind.config.js";
 
 export default async (eleventyConfig) => {
 	eleventyConfig.addPassthroughCopy("src/static");
+	eleventyConfig.addPassthroughCopy("src/fonts");
 	eleventyConfig.setDataDeepMerge(true);
 
 	eleventyConfig.addNunjucksAsyncFilter("postcss", async (cssCode, done) => {
@@ -21,6 +22,12 @@ export default async (eleventyConfig) => {
 	eleventyConfig.addWatchTarget("src/**/*.css");
 
 	return {
+		templateFormats: [
+      "md",
+      "njk",
+      "html",
+      "liquid"
+    ],
 		dir: {
 			input: "src",
 			output: "build",

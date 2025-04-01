@@ -84,9 +84,9 @@ async function getImapConnection(imapConfig) {
 	}
 }
 
-function closeConnection() {
+async function closeConnection() {
 	if (globalImap) {
-		globalImap.end();
+		await globalImap.end();
 		globalImap = null;
 	}
 }
@@ -281,4 +281,5 @@ module.exports = {
 	saveDraftEmail,
 	readDraftEmails,
 	listDrafts,
+	closeConnection,
 };
